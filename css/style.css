@@ -1,0 +1,324 @@
+
+body
+{
+	background-color: #f7f7f7;
+}
+
+#my-navbar
+{
+	padding-left: 50px;
+	padding-right: 40px;
+}
+
+.slider-text
+{
+	position: absolute;
+	top: 120px;
+	left: 120px;
+}
+
+.slider
+{
+	position: relative;
+	text-align: center;
+}
+
+#main-banner
+{
+	background-image: url("../assets/hero_desktop.jpg");
+	background-color: black;
+	/* Used if the image is unavailable */
+	height: 600px;
+	/* You must set a specified height */
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-size: cover;
+	z-index: -1;
+}
+
+.separator
+{
+	width: 15%;
+	height: 10px;
+	background-color: aqua;
+}
+
+.arrow
+{
+	height: 20px;
+	width: 20px;
+}
+
+#aqua-box-large
+{
+	background-color: #e6f6f5;
+	position: absolute;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -2.5%;
+	padding: 25px;
+	z-index: 1;
+}
+
+#aqua-box-large #aqua-box-large-title
+{
+	font-size: 27px;
+}
+
+.custom-box
+{
+	padding-left: 15px;
+}
+
+#map
+{
+	background-image: url("../assets/map.jpg");
+	background-color: black;
+	/* Used if the image is unavailable */
+	height: 900px;
+	/* You must set a specified height */
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	z-index: -1;
+	padding-top: 250px;
+	background-color: #f7f7f7;
+}
+
+#left-form
+{
+	background-color: #e6f6f5;
+	position: absolute;
+	width: 30%;
+	margin-left: 10%;
+	height: 400px;
+	margin-top: -6%;
+	padding: 50px 100px 50px 50px;
+	font-size: 20px;
+}
+
+#form
+{
+	position: relative;
+	z-index: 1;
+	width: 60%;
+	background-color: white;
+	float: right;
+	margin-top: -3%;
+	margin-right: 3%;
+}
+
+#inputs
+{
+	padding: 10% 0 0 50px;
+}
+
+.field
+{
+padding-bottom: 10px}
+
+#devider
+{
+	width: 100%;
+	height: 550px;
+}
+
+.footer
+{
+	background-color: rgb(230, 246, 245);
+	padding-left: 10%;
+}
+
+a
+{
+	font-weight: bold;
+color: black}
+
+#hero-content-text
+{
+	width: 44%;
+	margin: 40px;
+	padding: 40px 60px 60px 40px;
+}
+
+#aqua-box
+{
+	background-color: #e6f6f5;
+	width: 30%;
+	height: 50%;
+	font-size: 30px;
+	margin-left: 10%;
+	margin-top: -5%;
+	padding: 50px 80px 0px 50px;
+	z-index: 1;
+}
+
+.modal-card
+{
+	width: 450px;
+	border-bottom: 5px solid  rgb(119, 216, 210);
+}
+
+.modal-card-body
+{
+	padding: 20px 70px;
+}
+
+.custom-input
+{
+	width: 100%;
+	padding: 12px 40px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+h1
+{
+	font-family: 'ZahrahforDouglas SemiBold', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h2
+{
+	font-family: 'ZahrahforDouglas Medium', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+p
+{
+	font-family: 'ZahrahforDouglas Regular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+@media (max-width: 1024px)
+{
+	#main-banner
+	{
+		background-image: url("../assets/hero_tablet.jpg");
+	}
+
+	#aqua-box
+	{
+		background-color: #e6f6f5;
+		position: relative;
+		width: auto;
+		margin: -5% 0px 0px 0px ;
+		padding: 40px 20px;
+		font-size: 40px;
+		z-index: 1;
+	}
+
+	#form
+	{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		background-color: white;
+		margin-right: 0%;
+		margin-bottom: 15px;
+	}
+
+	#inputs
+	{
+		padding: 15% 0 0 10%;
+	}
+}
+
+@media (max-width: 768px)
+{
+	body
+	{
+		padding: 10px;
+	}
+
+	#main-banner
+	{
+		background-image: url("../assets/hero_mobile.jpg");
+	}
+
+	#map
+	{
+	background-image: url("../assets/map_mobile.jpg")}
+
+	#hero-content-text
+	{
+		width: 100%;
+		margin-top: 0px 10px 0px 0px;
+		padding: 0px 40px 10px 20px;
+		font-size: 12px;
+	}
+
+	#hero-content-text div, h2
+	{
+		margin-top: -15px;
+	}
+
+	#aqua-box
+	{
+		background-color: #e6f6f5;
+		position: relative;
+		width: 100%;
+		height: 50%;
+		margin-left: 0%;
+		padding: 15px;
+		font-size: 30px;
+		z-index: 1;
+	}
+
+	#form
+	{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		background-color: white;
+		margin-right: 0%;
+		margin-bottom: 15px;
+	}
+
+	#inputs
+	{
+		padding: 5%;
+	}
+
+	#aqua-box-large #aqua-box-large-title
+	{
+		font-size: 15px;
+	}
+
+	footer
+	{
+		width: 100%;
+	}
+
+	#logo-footer
+	{
+	justify-content: flex-start}
+}
+
+/* Chrome, Safari, AND NOW ALSO the Edge Browser and Firefox */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	#form
+	{
+		margin-top: -27%;
+	}
+
+	#devider
+	{
+		width: 100%;
+		height: 150px;
+	}
+
+	#partnership .columns
+	{
+		height: 90px;
+	}
+
+}

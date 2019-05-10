@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "ZahrahforDouglas Medium";
+    src: url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.eot");
+    src: 
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.woff") format("woff"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.otf") format("opentype"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.svg") format("svg");
+    }
+@font-face {
+    font-family: "ZahrahforDouglas SemiBold";
+    src: url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.eot");
+    src: 
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.woff") format("woff"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.otf") format("opentype"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.svg") format("svg");
+    }
+@font-face {
+    font-family: "ZahrahforDouglas Regular";
+    src: url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.eot");
+    src: 
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.eot") format("woff"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.otf") format("opentype"),
+    url("../assets/fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.svg") format("svg");
+    }
